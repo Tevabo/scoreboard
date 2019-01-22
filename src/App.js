@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Title content = "Teun's amazing scoreboard"/>
+          {/* <Title content = "Teun's amazing scoreboard"/> */}
           <main>
             <Scoreboard />
             {/* <Player /> */}
