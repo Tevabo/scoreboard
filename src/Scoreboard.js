@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Player from './Player'
+import AddPlayer from './AddPlayer'
 import './Scoreboard.css'
 
 
@@ -45,6 +46,7 @@ class Scoreboard extends Component {
                             .map(this.renderPlayer)
                     }
                 </ul>
+                <AddPlayer />
             </div>
         )
     }
