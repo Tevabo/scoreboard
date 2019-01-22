@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Player from './Player'
+import './Scoreboard.css'
 
 const players = [
     {
@@ -32,7 +33,7 @@ class Scoreboard extends Component {
 
     render() {
         return (
-            <div className="Scoreboard">
+            <div className="scoreboard">
                 <h1>Scoreboard</h1>
                 <ul>
                     {
