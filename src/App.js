@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Title from './Title'
 import Scoreboard from './Scoreboard'
-// import Player from './Player'
 
 class App extends Component {
   render() {
@@ -13,7 +11,6 @@ class App extends Component {
           <Title content="" />
           <main>
             <Scoreboard />
-            {/* <Player /> */}
           </main>
         </header>
       </div>
